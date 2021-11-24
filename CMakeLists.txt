@@ -18,7 +18,7 @@ aux_source_directory(. source_list)
 aux_source_directory(./uiModules ui_source_list)
 
 
-add_executable(qtEvent ${source_list} ${ui_source_list} uiModules/train.cpp uiModules/control.cpp uiModules/test.cpp uiModules/test.h uiModules/train.h uiModules/master.cpp uiModules/master.h)
+add_executable(qtEvent ${source_list} ${ui_source_list} uiModules/train.cpp uiModules/control.cpp uiModules/test.cpp uiModules/test.h uiModules/train.h uiModules/master.cpp uiModules/master.h uiModules/window.cpp uiModules/window.h)
 target_link_libraries(qtEvent
         Qt5::Core
         Qt5::Gui

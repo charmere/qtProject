@@ -144,6 +144,12 @@
 		<Unit filename="D:/workProject/qtProject/qtEvent/uiModules/train.h">
 			<Option target="qtEvent"/>
 		</Unit>
+		<Unit filename="D:/workProject/qtProject/qtEvent/uiModules/window.cpp">
+			<Option target="qtEvent"/>
+		</Unit>
+		<Unit filename="D:/workProject/qtProject/qtEvent/uiModules/window.h">
+			<Option target="qtEvent"/>
+		</Unit>
 		<Unit filename="D:/workProject/qtProject/qtEvent/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

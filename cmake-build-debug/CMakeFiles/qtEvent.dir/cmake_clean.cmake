@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/qtEvent.dir/uiModules/master.cpp.obj"
   "CMakeFiles/qtEvent.dir/uiModules/test.cpp.obj"
   "CMakeFiles/qtEvent.dir/uiModules/train.cpp.obj"
+  "CMakeFiles/qtEvent.dir/uiModules/window.cpp.obj"
   "CMakeFiles/qtEvent_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/qtEvent_autogen.dir/ParseCache.txt"
   "qtEvent_autogen"

@@ -275,6 +275,30 @@ uiModules\train.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qtEvent.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\qtEvent.dir\uiModules\train.cpp.s
 .PHONY : uiModules\train.cpp.s
 
+uiModules\window.obj: uiModules\window.cpp.obj
+.PHONY : uiModules\window.obj
+
+# target to build an object file
+uiModules\window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qtEvent.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\qtEvent.dir\uiModules\window.cpp.obj
+.PHONY : uiModules\window.cpp.obj
+
+uiModules\window.i: uiModules\window.cpp.i
+.PHONY : uiModules\window.i
+
+# target to preprocess a source file
+uiModules\window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qtEvent.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\qtEvent.dir\uiModules\window.cpp.i
+.PHONY : uiModules\window.cpp.i
+
+uiModules\window.s: uiModules\window.cpp.s
+.PHONY : uiModules\window.s
+
+# target to generate assembly for a file
+uiModules\window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qtEvent.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\qtEvent.dir\uiModules\window.cpp.s
+.PHONY : uiModules\window.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -303,6 +327,9 @@ help:
 	@echo ... uiModules/train.obj
 	@echo ... uiModules/train.i
 	@echo ... uiModules/train.s
+	@echo ... uiModules/window.obj
+	@echo ... uiModules/window.i
+	@echo ... uiModules/window.s
 .PHONY : help
 
 

@@ -169,6 +169,25 @@ CMakeFiles\qtEvent.dir\uiModules\train.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\qtEvent.dir\uiModules\train.cpp.s /c D:\workProject\qtProject\qtEvent\uiModules\train.cpp
 <<
 
+CMakeFiles\qtEvent.dir\uiModules\window.cpp.obj: CMakeFiles\qtEvent.dir\flags.make
+CMakeFiles\qtEvent.dir\uiModules\window.cpp.obj: ..\uiModules\window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workProject\qtProject\qtEvent\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/qtEvent.dir/uiModules/window.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\qtEvent.dir\uiModules\window.cpp.obj /FdCMakeFiles\qtEvent.dir\ /FS -c D:\workProject\qtProject\qtEvent\uiModules\window.cpp
+<<
+
+CMakeFiles\qtEvent.dir\uiModules\window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtEvent.dir/uiModules/window.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\qtEvent.dir\uiModules\window.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\workProject\qtProject\qtEvent\uiModules\window.cpp
+<<
+
+CMakeFiles\qtEvent.dir\uiModules\window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtEvent.dir/uiModules/window.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\qtEvent.dir\uiModules\window.cpp.s /c D:\workProject\qtProject\qtEvent\uiModules\window.cpp
+<<
+
 # Object files for target qtEvent
 qtEvent_OBJECTS = \
 "CMakeFiles\qtEvent.dir\qtEvent_autogen\mocs_compilation.cpp.obj" \
@@ -176,7 +195,8 @@ qtEvent_OBJECTS = \
 "CMakeFiles\qtEvent.dir\uiModules\control.cpp.obj" \
 "CMakeFiles\qtEvent.dir\uiModules\master.cpp.obj" \
 "CMakeFiles\qtEvent.dir\uiModules\test.cpp.obj" \
-"CMakeFiles\qtEvent.dir\uiModules\train.cpp.obj"
+"CMakeFiles\qtEvent.dir\uiModules\train.cpp.obj" \
+"CMakeFiles\qtEvent.dir\uiModules\window.cpp.obj"
 
 # External object files for target qtEvent
 qtEvent_EXTERNAL_OBJECTS =
@@ -187,12 +207,13 @@ qtEvent.exe: CMakeFiles\qtEvent.dir\uiModules\control.cpp.obj
 qtEvent.exe: CMakeFiles\qtEvent.dir\uiModules\master.cpp.obj
 qtEvent.exe: CMakeFiles\qtEvent.dir\uiModules\test.cpp.obj
 qtEvent.exe: CMakeFiles\qtEvent.dir\uiModules\train.cpp.obj
+qtEvent.exe: CMakeFiles\qtEvent.dir\uiModules\window.cpp.obj
 qtEvent.exe: CMakeFiles\qtEvent.dir\build.make
 qtEvent.exe: D:\qt5\5.14.2\msvc2017\lib\Qt5Widgetsd.lib
 qtEvent.exe: D:\qt5\5.14.2\msvc2017\lib\Qt5Guid.lib
 qtEvent.exe: D:\qt5\5.14.2\msvc2017\lib\Qt5Cored.lib
 qtEvent.exe: CMakeFiles\qtEvent.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\workProject\qtProject\qtEvent\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable qtEvent.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\workProject\qtProject\qtEvent\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable qtEvent.exe"
 	"D:\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\qtEvent.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\qtEvent.dir\objects1.rsp @<<
  /out:qtEvent.exe /implib:qtEvent.lib /pdb:D:\workProject\qtProject\qtEvent\cmake-build-debug\qtEvent.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  D:\qt5\5.14.2\msvc2017\lib\Qt5Widgetsd.lib D:\qt5\5.14.2\msvc2017\lib\Qt5Guid.lib D:\qt5\5.14.2\msvc2017\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

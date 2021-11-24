@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+D:/qt5/5.14.2/msvc2017/include/QtCore/QStringList
+qstringlist.h
+D:/qt5/5.14.2/msvc2017/include/QtCore/qstringlist.h
+
 D:/qt5/5.14.2/msvc2017/include/QtCore/qabstractitemmodel.h
 QtCore/qvariant.h
 -
@@ -114,6 +118,20 @@ limits.h
 new
 -
 
+D:/qt5/5.14.2/msvc2017/include/QtCore/qcoreapplication.h
+QtCore/qglobal.h
+-
+QtCore/qstring.h
+-
+QtCore/qobject.h
+-
+QtCore/qcoreevent.h
+-
+QtCore/qeventloop.h
+-
+QtCore/qscopedpointer.h
+-
+
 D:/qt5/5.14.2/msvc2017/include/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
@@ -160,6 +178,10 @@ list
 map
 -
 utility
+-
+
+D:/qt5/5.14.2/msvc2017/include/QtCore/qeventloop.h
+QtCore/qobject.h
 -
 
 D:/qt5/5.14.2/msvc2017/include/QtCore/qfile.h
@@ -748,6 +770,10 @@ D:/qt5/5.14.2/msvc2017/include/QtCore/qversiontagging.h
 QtCore/qglobal.h
 -
 
+D:/qt5/5.14.2/msvc2017/include/QtGui/QFont
+qfont.h
+D:/qt5/5.14.2/msvc2017/include/QtGui/qfont.h
+
 D:/qt5/5.14.2/msvc2017/include/QtGui/qbrush.h
 QtGui/qtguiglobal.h
 -
@@ -850,6 +876,22 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
+D:/qt5/5.14.2/msvc2017/include/QtGui/qguiapplication.h
+QtGui/qtguiglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtGui/qinputmethod.h
+-
+QtCore/qlocale.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+
 D:/qt5/5.14.2/msvc2017/include/QtGui/qicon.h
 QtGui/qtguiglobal.h
 -
@@ -880,6 +922,12 @@ QtCore/qrect.h
 QtCore/qstring.h
 -
 QtCore/qstringlist.h
+-
+
+D:/qt5/5.14.2/msvc2017/include/QtGui/qinputmethod.h
+QtGui/qtguiglobal.h
+-
+QtCore/qobject.h
 -
 
 D:/qt5/5.14.2/msvc2017/include/QtGui/qkeysequence.h
@@ -1066,6 +1114,10 @@ D:/qt5/5.14.2/msvc2017/include/QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
+D:/qt5/5.14.2/msvc2017/include/QtWidgets/QApplication
+qapplication.h
+D:/qt5/5.14.2/msvc2017/include/QtWidgets/qapplication.h
+
 D:/qt5/5.14.2/msvc2017/include/QtWidgets/QComboBox
 qcombobox.h
 D:/qt5/5.14.2/msvc2017/include/QtWidgets/qcombobox.h
@@ -1081,6 +1133,10 @@ D:/qt5/5.14.2/msvc2017/include/QtWidgets/qboxlayout.h
 D:/qt5/5.14.2/msvc2017/include/QtWidgets/QLabel
 qlabel.h
 D:/qt5/5.14.2/msvc2017/include/QtWidgets/qlabel.h
+
+D:/qt5/5.14.2/msvc2017/include/QtWidgets/QMessageBox
+qmessagebox.h
+D:/qt5/5.14.2/msvc2017/include/QtWidgets/qmessagebox.h
 
 D:/qt5/5.14.2/msvc2017/include/QtWidgets/QPushButton
 qpushbutton.h
@@ -1134,6 +1190,24 @@ QtWidgets/qwidget.h
 QtGui/qvalidator.h
 -
 
+D:/qt5/5.14.2/msvc2017/include/QtWidgets/qapplication.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+QtGui/qcursor.h
+-
+QtWidgets/qdesktopwidget.h
+-
+QtGui/qguiapplication.h
+-
+
 D:/qt5/5.14.2/msvc2017/include/QtWidgets/qboxlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1156,6 +1230,18 @@ QtCore/qabstractitemmodel.h
 QtCore/qvariant.h
 -
 QtGui/qvalidator.h
+-
+
+D:/qt5/5.14.2/msvc2017/include/QtWidgets/qdesktopwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
+D:/qt5/5.14.2/msvc2017/include/QtWidgets/qdialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
 -
 
 D:/qt5/5.14.2/msvc2017/include/QtWidgets/qframe.h
@@ -1208,6 +1294,12 @@ QtWidgets/qsizepolicy.h
 QtCore/qrect.h
 -
 limits.h
+-
+
+D:/qt5/5.14.2/msvc2017/include/QtWidgets/qmessagebox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qdialog.h
 -
 
 D:/qt5/5.14.2/msvc2017/include/QtWidgets/qpushbutton.h
@@ -1336,6 +1428,80 @@ QtGui/qkeysequence.h
 QtGui/qevent.h
 -
 
+D:/workProject/qtProject/qtEvent/cmake-build-debug/qtEvent_autogen/X6I37J3NVY/moc_master.cpp
+memory
+-
+../../../uiModules/master.h
+D:/workProject/qtProject/qtEvent/uiModules/master.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+D:/workProject/qtProject/qtEvent/cmake-build-debug/qtEvent_autogen/X6I37J3NVY/moc_train.cpp
+memory
+-
+../../../uiModules/train.h
+D:/workProject/qtProject/qtEvent/uiModules/train.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+D:/workProject/qtProject/qtEvent/cmake-build-debug/qtEvent_autogen/X6I37J3NVY/moc_window.cpp
+memory
+-
+../../../uiModules/window.h
+D:/workProject/qtProject/qtEvent/uiModules/window.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+D:/workProject/qtProject/qtEvent/cmake-build-debug/qtEvent_autogen/mocs_compilation.cpp
+X6I37J3NVY/moc_master.cpp
+D:/workProject/qtProject/qtEvent/cmake-build-debug/qtEvent_autogen/X6I37J3NVY/moc_master.cpp
+X6I37J3NVY/moc_train.cpp
+D:/workProject/qtProject/qtEvent/cmake-build-debug/qtEvent_autogen/X6I37J3NVY/moc_train.cpp
+X6I37J3NVY/moc_window.cpp
+D:/workProject/qtProject/qtEvent/cmake-build-debug/qtEvent_autogen/X6I37J3NVY/moc_window.cpp
+
+D:/workProject/qtProject/qtEvent/main.cpp
+QApplication
+-
+QWidget
+-
+QHBoxLayout
+-
+QFont
+-
+uiModules/window.h
+D:/workProject/qtProject/qtEvent/uiModules/window.h
+
+D:/workProject/qtProject/qtEvent/uiModules/control.h
+QHBoxLayout
+-
+QWidget
+-
+QPushButton
+-
+QSpacerItem
+-
+QVBoxLayout
+-
+QSizePolicy
+-
+
+D:/workProject/qtProject/qtEvent/uiModules/master.h
+QWidget
+-
+QLabel
+-
+QHBoxLayout
+-
+
+D:/workProject/qtProject/qtEvent/uiModules/test.h
+
 D:/workProject/qtProject/qtEvent/uiModules/train.cpp
 train.h
 D:/workProject/qtProject/qtEvent/uiModules/train.h
@@ -1360,5 +1526,25 @@ QVBoxLayout
 QComboBox
 -
 QGridLayout
+-
+QStringList
+-
+QMessageBox
+-
+
+D:/workProject/qtProject/qtEvent/uiModules/window.h
+control.h
+D:/workProject/qtProject/qtEvent/uiModules/control.h
+train.h
+D:/workProject/qtProject/qtEvent/uiModules/train.h
+master.h
+D:/workProject/qtProject/qtEvent/uiModules/master.h
+test.h
+D:/workProject/qtProject/qtEvent/uiModules/test.h
+QWidget
+-
+QHBoxLayout
+-
+QMessageBox
 -
 

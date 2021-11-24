@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/workProject/qtProject/qtEvent/uiModules/master.cpp" "D:/workProject/qtProject/qtEvent/cmake-build-debug/CMakeFiles/qtEvent.dir/uiModules/master.cpp.obj"
   "D:/workProject/qtProject/qtEvent/uiModules/test.cpp" "D:/workProject/qtProject/qtEvent/cmake-build-debug/CMakeFiles/qtEvent.dir/uiModules/test.cpp.obj"
   "D:/workProject/qtProject/qtEvent/uiModules/train.cpp" "D:/workProject/qtProject/qtEvent/cmake-build-debug/CMakeFiles/qtEvent.dir/uiModules/train.cpp.obj"
+  "D:/workProject/qtProject/qtEvent/uiModules/window.cpp" "D:/workProject/qtProject/qtEvent/cmake-build-debug/CMakeFiles/qtEvent.dir/uiModules/window.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

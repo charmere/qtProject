@@ -98,6 +98,12 @@
 			"MU",
 			"X6I37J3NVY/moc_train.cpp",
 			null
+		],
+		[
+			"D:/workProject/qtProject/qtEvent/uiModules/window.h",
+			"MU",
+			"X6I37J3NVY/moc_window.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -141,7 +147,8 @@
 		[ "D:/workProject/qtProject/qtEvent/uiModules/control.cpp", "MU", null ],
 		[ "D:/workProject/qtProject/qtEvent/uiModules/master.cpp", "MU", null ],
 		[ "D:/workProject/qtProject/qtEvent/uiModules/test.cpp", "MU", null ],
-		[ "D:/workProject/qtProject/qtEvent/uiModules/train.cpp", "MU", null ]
+		[ "D:/workProject/qtProject/qtEvent/uiModules/train.cpp", "MU", null ],
+		[ "D:/workProject/qtProject/qtEvent/uiModules/window.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
