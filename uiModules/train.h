@@ -28,8 +28,8 @@ private:
 
 	//---------------------------------------------------
 	// train setting
-
-	// right widget
+	
+		// right widget
 	QWidget *rightWidget = new QWidget(this);
 	QLabel *trainSettingLabel = new QLabel("train setting");
 
