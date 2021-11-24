@@ -1,0 +1,2 @@
+# qtProject
+project for exercise
